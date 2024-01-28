@@ -115,18 +115,14 @@ button{
             .skill_wrap{
                 display: flex;
                 justify-content: center;
-                width: 604px;
-                height: 186px;
                 padding: 10px;
                 gap: 10px;
                 flex-wrap: wrap;
                 .skill_img{
+                    width: 64px;
+                    height:64px;
                     object-fit: cover;
                     overflow: clip;
-                    .thumb{
-                        width: 64px;
-                        height:64px;
-                    }
                 }
             }            
         }
