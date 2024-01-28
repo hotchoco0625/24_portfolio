@@ -82,8 +82,7 @@ button{
         }
         .rigtt-w{
             width: 600px;
-            display: flex;
-            flex-direction: column;
+            display: block;
             .career{
                 .Career_List{
                     width: 100%;
@@ -113,11 +112,8 @@ button{
                 }
             }
             .skill_wrap{
-                display: flex;
-                flex-wrap: wrap;
-                flex-direction: row;
+                display: inline-block;
                 padding: 10px;
-                gap: 10px;
                 .skill_img{
                     width: 64px;
                     height:64px;
