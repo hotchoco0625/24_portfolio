@@ -110,33 +110,29 @@ button{
                             width: 240px;
                             text-align: left;    
                         }
-        
                     }
-                    .skill_wrap{
-                        display: flex;
-                        width: 604px;
-                        height: 186px;
-                        padding: 10px;
-                        align-items: center;
-                        align-content: center;
-                        gap: 10px;
-                        flex-shrink: 0;
-                        flex-wrap: wrap;
-                        .skill_img{
-                            width: 64px;
-                            height:64px;
-                            position: relative;
-                            .thumb{
-                                object-fit: cover;
-                                overflow: clip;
-                            }
-                        }
-                
-                    }            
                 }
-        
             }
+            .skill_wrap{
+                display: flex;
+                width: 604px;
+                height: 186px;
+                padding: 10px;
+                align-items: center;
+                align-content: center;
+                gap: 10px;
+                flex-shrink: 0;
+                flex-wrap: wrap;
+                .skill_img{
+                    .thumb{
+                        width: 64px;
+                        height:64px;
+                        object-fit: cover;
+                        overflow: clip;
+                    }
+                }
             
+            }            
         }
     
     }
